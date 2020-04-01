@@ -1,3 +1,5 @@
+/* INDIVIDUEEL GEDEELTE WOUT */
+
 #ifndef LEDS_H
 #define LEDS_H
 
@@ -54,3 +56,5 @@ void leds_rainbow(void);
 #endif
 
 #endif
+
+/* INDIVIDUEEL GEDEELTE WOUT */

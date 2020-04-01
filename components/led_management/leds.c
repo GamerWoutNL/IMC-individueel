@@ -1,3 +1,5 @@
+/* INDIVIDUEEL GEDEELTE WOUT */
+
 #include "leds.h"
 
 #define ADDR PCA9685_ADDR_BASE
@@ -147,3 +149,5 @@ void leds_rainbow(void)
         vTaskDelay(pdMS_TO_TICKS(500));
     }
 }
+
+/* INDIVIDUEEL GEDEELTE WOUT */

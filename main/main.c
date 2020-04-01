@@ -257,6 +257,8 @@ void taskMenuTestLoop(void *pvParameters)
 
 void app_main()
 {
+    /* INDIVIDUEEL GEDEELTE WOUT */
+
     /* LED init */
     i2cdev_init();
     leds_init();
@@ -270,4 +272,6 @@ void app_main()
     // leds_changeState(READY);
     // vTaskDelay(pdMS_TO_TICKS(5000));
     // leds_changeState(LOADING);
+
+    /* INDIVIDUEEL GEDEELTE WOUT */
 }
