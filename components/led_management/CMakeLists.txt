@@ -1,0 +1,7 @@
+set(COMPONENT_REQUIRES pca9685)
+set(COMPONENT_PRIV_REQUIRES)
+
+set(COMPONENT_SRCS "leds.c")
+set(COMPONENT_ADD_INCLUDEDIRS include)
+
+register_component()
